@@ -1,0 +1,100 @@
+.emoji-manage-main {
+    width: 410px;
+    height: 300px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tab-control {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-bottom: 1px solid #bdbdbd;
+    width: 400px;
+    height: 50px;
+    padding: 0 0 0 10px;
+}
+
+.tab-control-item {
+    height: 25px;
+    margin: 8px 10px 0 10px;
+    padding: 3px 3px 0 3px;
+    border-radius: 10px;
+    color: #bdbdbd;
+}
+
+.tab-control-item-input {
+    margin: 12px 0px 0 25px;
+
+}
+
+input {
+    border: 0;
+    outline: none;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    padding: 0 10px;
+    color: #bababa;
+}
+
+/* input:hover {
+    background-color: #5eb1f6;
+    color: white;
+} */
+
+.tab-control-item:hover {
+    background-color: #5eb1f6;
+    color: white;
+}
+
+.close {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+.search {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+.emoji-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 210px;
+    overflow: scroll;
+}
+
+.emoji {
+    width: 30px;
+    height: 30px;
+    margin: 20px 0px 0px 19px;
+}
+
+.tab-bar {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.tab-bar-item:hover {
+    background-color: #5eb1f6;
+    color: white;
+}
+
+.tab-bar-item {
+    margin: 8px 10px 6px 10px;
+    padding: 2px 2px 0 2px;
+    color: #bdbdbd;
+    border-radius: 10px;
+}
